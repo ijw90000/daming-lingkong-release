@@ -1,0 +1,12 @@
+{
+  "app": "大明灵控",
+  "version": "1.30",
+  "url": "p_t724m75x04/DamingLingkong-PC-v1.30.exe",
+  "size": 12749572,
+  "sha256": "a471f46561be019430f009d9645351ef1e7da8752d9250c0b613171afcf5d7e2",
+  "updated": "2026-09-11",
+  "notes": "电脑端被控端与控制端合并为一个 EXE；移除安卓源码包下载入口；手机端画面铺满全屏、按钮收进悬浮球",
+  "phone_apk": "p_t724m75x04/DamingLingkong-Phone-v1.30.apk",
+  "phone_apk_size": 5248169,
+  "phone_apk_sha256": "73fb237fd7f9a9b0a632959c04352c4ccff1cda3507afc0d99f2196adfe81e52"
+}
