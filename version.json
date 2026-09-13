@@ -1,12 +1,12 @@
 {
   "app": "大明灵控",
-  "version": "1.33",
-  "url": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-PC-v1.33.exe",
-  "size": 12751121,
-  "sha256": "2bbac51df45b7cadc921cb3f5a9aa238d188fe35700d0cf33f9f3cbdbaefe1f3",
+  "version": "1.34",
+  "url": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-PC-v1.34.exe",
+  "size": 12752433,
+  "sha256": "06a8b1926ce0fcd9f10fb7e3d9627db2a0f90106f07655d40150d9707f743285",
   "updated": "2026-09-13",
-  "notes": "①版本号显示修正：手机端标题改为读取 APK 真实版本（此前写死 v1.20，装新版也显示旧号），发布页各处以实际版本为准；②鼠标更跟手：手机拖动电脑鼠标大幅降低单次定位耗时，并只保留最新位置，拖动不再越拖越滞后；③保留 v1.32 全部修复：滚轮不再瞬移鼠标、拖拽/右键落点精确、输入不卡画面、断线更稳、手机端防闪退与线程泄漏。",
-  "phone_apk": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-Phone-v1.33.apk",
-  "phone_apk_size": 5248873,
-  "phone_apk_sha256": "6197464ab4443f122bc55f42fbf88da26a97a91f799657749b9ddff2a22c62b1"
+  "notes": "①电脑端不再弹黑色命令行窗口：剪贴板同步改用系统接口直接读写（原来每 2 秒唤起一次命令行工具、每 2 秒闪一个黑框），其余后台调用（电源/命令/进程/打开文件/自动更新）也全部隐藏执行；②修复手机端连上后不久自动掉线（写超时 timeout 与心跳超时 didn't receive pong 两种）：手机端画面解码与网络线程彻底分离、只解最新一帧，电脑端投屏加「一帧在途」背压并弱网自动降画质降分辨率；③手机端被动掉线后自动重连（4 秒退避、最多 8 次），主动点「断开」不再自动重连；④保留 v1.33/v1.32 全部修复：版本号显示统一、滚轮不再瞬移鼠标、拖拽与右键落点精确、鼠标更跟手、输入不卡画面、手机端防闪退与线程泄漏。",
+  "phone_apk": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-Phone-v1.34.apk",
+  "phone_apk_size": 5249529,
+  "phone_apk_sha256": "10e4e9764c3fff1292915d55fac202d9a19899032de1b40f6a120716b4fcd877"
 }
