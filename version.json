@@ -1,12 +1,12 @@
 {
   "app": "大明灵控",
-  "version": "1.30",
-  "url": "p_t724m75x04/DamingLingkong-PC-v1.30.exe",
-  "size": 12749572,
-  "sha256": "a471f46561be019430f009d9645351ef1e7da8752d9250c0b613171afcf5d7e2",
-  "updated": "2026-09-11",
-  "notes": "电脑端被控端与控制端合并为一个 EXE；移除安卓源码包下载入口；手机端画面铺满全屏、按钮收进悬浮球",
-  "phone_apk": "p_t724m75x04/DamingLingkong-Phone-v1.30.apk",
-  "phone_apk_size": 5248169,
-  "phone_apk_sha256": "73fb237fd7f9a9b0a632959c04352c4ccff1cda3507afc0d99f2196adfe81e52"
+  "version": "1.31",
+  "url": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-PC-v1.31.exe",
+  "size": 12750137,
+  "sha256": "965f950841f9e886eef2a5c73fd946009599491d08d27fa11890a9146ce77ac7",
+  "updated": "2026-09-13",
+  "notes": "双端新增「断开连接」：手机端控制面板加「断开」按钮（断开后可重连）；电脑被控端状态窗加「断开连接 / 重连」（断开保留进程、可随时恢复）；电脑控制端原有「断开」保持不变。",
+  "phone_apk": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-Phone-v1.31.apk",
+  "phone_apk_size": 5248365,
+  "phone_apk_sha256": "df8752d7de49a6da5f8d4d0dfc6885b1dd4b811c2aad959fa8abdf9eba4e030e"
 }
