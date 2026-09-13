@@ -1,12 +1,12 @@
 {
   "app": "大明灵控",
-  "version": "1.32",
-  "url": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-PC-v1.32.exe",
-  "size": 12750552,
-  "sha256": "6a177a2ff3f273904969c8ec66e562a5f863c473742eca04da3f6abc8340d5cf",
+  "version": "1.33",
+  "url": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-PC-v1.33.exe",
+  "size": 12751121,
+  "sha256": "2bbac51df45b7cadc921cb3f5a9aa238d188fe35700d0cf33f9f3cbdbaefe1f3",
   "updated": "2026-09-13",
-  "notes": "修复原则性 bug：①滚轮事件不再把鼠标瞬移到屏幕中心；②拖拽松开/右键落点精确到手指位置（旧版松开位置可能偏移）；③键盘/文字输入不再卡顿投屏；④断开后不再出现 0 延迟重连风暴与状态残留；⑤手机端修复畸形视频帧闪退、重连线程泄漏、手动断开后 4 秒又被自动重连的问题。",
-  "phone_apk": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-Phone-v1.32.apk",
-  "phone_apk_size": 5248745,
-  "phone_apk_sha256": "d07af775dc81a45f9078bf22780b651fdfd5d4b3cb34066aff54c44de85903a9"
+  "notes": "①版本号显示修正：手机端标题改为读取 APK 真实版本（此前写死 v1.20，装新版也显示旧号），发布页各处以实际版本为准；②鼠标更跟手：手机拖动电脑鼠标大幅降低单次定位耗时，并只保留最新位置，拖动不再越拖越滞后；③保留 v1.32 全部修复：滚轮不再瞬移鼠标、拖拽/右键落点精确、输入不卡画面、断线更稳、手机端防闪退与线程泄漏。",
+  "phone_apk": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-Phone-v1.33.apk",
+  "phone_apk_size": 5248873,
+  "phone_apk_sha256": "6197464ab4443f122bc55f42fbf88da26a97a91f799657749b9ddff2a22c62b1"
 }
