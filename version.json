@@ -1,12 +1,12 @@
 {
   "app": "大明灵控",
-  "version": "1.31",
-  "url": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-PC-v1.31.exe",
-  "size": 12750137,
-  "sha256": "965f950841f9e886eef2a5c73fd946009599491d08d27fa11890a9146ce77ac7",
+  "version": "1.32",
+  "url": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-PC-v1.32.exe",
+  "size": 12750552,
+  "sha256": "6a177a2ff3f273904969c8ec66e562a5f863c473742eca04da3f6abc8340d5cf",
   "updated": "2026-09-13",
-  "notes": "双端新增「断开连接」：手机端控制面板加「断开」按钮（断开后可重连）；电脑被控端状态窗加「断开连接 / 重连」（断开保留进程、可随时恢复）；电脑控制端原有「断开」保持不变。",
-  "phone_apk": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-Phone-v1.31.apk",
-  "phone_apk_size": 5248365,
-  "phone_apk_sha256": "df8752d7de49a6da5f8d4d0dfc6885b1dd4b811c2aad959fa8abdf9eba4e030e"
+  "notes": "修复原则性 bug：①滚轮事件不再把鼠标瞬移到屏幕中心；②拖拽松开/右键落点精确到手指位置（旧版松开位置可能偏移）；③键盘/文字输入不再卡顿投屏；④断开后不再出现 0 延迟重连风暴与状态残留；⑤手机端修复畸形视频帧闪退、重连线程泄漏、手动断开后 4 秒又被自动重连的问题。",
+  "phone_apk": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-Phone-v1.32.apk",
+  "phone_apk_size": 5248745,
+  "phone_apk_sha256": "d07af775dc81a45f9078bf22780b651fdfd5d4b3cb34066aff54c44de85903a9"
 }
