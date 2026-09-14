@@ -1,12 +1,12 @@
 {
   "app": "大明灵控",
-  "version": "1.34",
-  "url": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-PC-v1.34.exe",
-  "size": 12752433,
-  "sha256": "06a8b1926ce0fcd9f10fb7e3d9627db2a0f90106f07655d40150d9707f743285",
-  "updated": "2026-09-13",
-  "notes": "①电脑端不再弹黑色命令行窗口：剪贴板同步改用系统接口直接读写（原来每 2 秒唤起一次命令行工具、每 2 秒闪一个黑框），其余后台调用（电源/命令/进程/打开文件/自动更新）也全部隐藏执行；②修复手机端连上后不久自动掉线（写超时 timeout 与心跳超时 didn't receive pong 两种）：手机端画面解码与网络线程彻底分离、只解最新一帧，电脑端投屏加「一帧在途」背压并弱网自动降画质降分辨率；③手机端被动掉线后自动重连（4 秒退避、最多 8 次），主动点「断开」不再自动重连；④保留 v1.33/v1.32 全部修复：版本号显示统一、滚轮不再瞬移鼠标、拖拽与右键落点精确、鼠标更跟手、输入不卡画面、手机端防闪退与线程泄漏。",
-  "phone_apk": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-Phone-v1.34.apk",
-  "phone_apk_size": 5249529,
-  "phone_apk_sha256": "10e4e9764c3fff1292915d55fac202d9a19899032de1b40f6a120716b4fcd877"
+  "version": "1.35",
+  "url": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-PC-v1.35.exe",
+  "size": 12752798,
+  "sha256": "ecf9a458e76d8632f2fc8cdfdd33137efc50b702e28626f6b5f2837b7f5e1f3b",
+  "updated": "2026-09-14",
+  "notes": "①手机端新增鼠标方向摇杆（虚拟摇杆）：左下角圆形摇杆按住往任意方向拖动，鼠标就朝该方向持续移动，推得越远越快，松手归位；走相对移动，跨 4K/多屏更跟手，解决大屏上滑动鼠标反应慢的问题。②相对移动由电脑端按当前屏幕分辨率换算成位移（约 60Hz 持续上报），多屏下走全局虚拟桌面自动跨屏、无需回读光标位置、零延迟。③保留 v1.34 全部修复：电脑端不再弹黑框、弱网下不再掉线、掉线自动重连、滚轮不瞬移、拖拽与右键落点精确、版本号显示统一。",
+  "phone_apk": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-Phone-v1.35.apk",
+  "phone_apk_size": 5251561,
+  "phone_apk_sha256": "bb8e2bba7351b566b1c4e4d352007ee0e18b20a2a27fd60575249287af1150fb"
 }
