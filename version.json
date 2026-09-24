@@ -6,7 +6,8 @@
   "sha256": "3245156f6c5e5e2ece52d9eacc83bf8720398666fa1822b897117e88aac12f05",
   "updated": "2026-09-24",
   "notes": "①借鉴向日葵远程控制，控制跟手度大升级：投屏默认帧率 15→24，画面更流畅、主观延迟明显降低。②新增「触控板」控制模式（底部「点哪到哪 / 触控板」切换）：手指在屏幕上滑动即相对移动鼠标，带可调灵敏度（1-5 档），小屏控大屏不用「对准目标再滑很远」，手指小幅滑动鼠标大幅移动，更跟手。③新增「灵敏」档位滑块，作用于触控板滑动与左下角方向摇杆。④补双击手势：快速二次轻点发 dblclick（如桌面双击打开、双击选词），单击仍零延迟。⑤保留 v1.37 手机端日志落盘、v1.36 断线分析、v1.35 摇杆与 v1.34 全部修复。",
-  "phone_apk": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-Phone-v1.38.apk",
-  "phone_apk_size": 5259049,
-  "phone_apk_sha256": "84e7e12b4a644c0387031d7385044faa91758fcfd514ecf64950644bd6b5cfdc"
+  "phone_apk": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-Phone-v1.38.1.apk",
+  "phone_apk_size": 5258965,
+  "phone_apk_sha256": "9ce2bdb31a1601ffa50b57795548e2791d0dc264fd5fc408ded7b3411f57a329",
+  "phone_note": "v1.38.1（手机端）：①pingInterval 30s→15s，死链发现快一倍，黑屏从 ~35s 缩到 ~20s；②修 classifyDisc 误标 bug——重连连不上中继（failed to connect after 10000ms）原先被误分类为「对端正常关闭（电脑端主动断开）」，现改为「无法连接（网络/DNS 异常）」。其余同 v1.38（触控板模式 + 24帧 + 灵敏度 + 双击）。"
 }
