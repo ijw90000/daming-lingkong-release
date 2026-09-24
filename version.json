@@ -1,12 +1,12 @@
 {
   "app": "大明灵控",
-  "version": "1.36",
-  "url": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-PC-v1.36.exe",
-  "size": 12755057,
-  "sha256": "4cc8d74058ed997d465bfd4a70cbe7af6187983da3b1297adc0ba74e96280521",
+  "version": "1.37",
+  "url": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-PC-v1.37.exe",
+  "size": 12755055,
+  "sha256": "d2e356befd554bc922f7909748a3a4e352ecd1468d8eeedcce42c2bbe33567f2",
   "updated": "2026-09-24",
-  "notes": "①新增「连接断开分析日志」：每次掉线都结构化记录原因归类（网络中断/超时/被拒/对端离开/手动断开等）、本次会话在线时长、断前收发活跃度、距上次断开间隔与累计重连次数；电脑端写入 dmlk_disconnect.log（与 remotectl.log 同目录），手机端写入 Android/data/com.remotectl/files/lk_disconnect.log，手机界面同时显示归因后的原因，一眼判断是网络还是对端问题。②保留 v1.35 手机端鼠标方向摇杆与 v1.34 全部修复。",
-  "phone_apk": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-Phone-v1.36.apk",
-  "phone_apk_size": 5252549,
-  "phone_apk_sha256": "a95c1886d16cdfa5bdd9aba4163c2d4363439ea4dbdf647f364f65c45d48c2e1"
+  "notes": "①手机端日志改存到「手机存储 / 大明灵控」文件夹：以前藏在 Android/data/com.remotectl/files/ 应用私有目录里，文件管理器看不到；现在统一写到手机存储根目录下的「大明灵控」，接电脑或用文件管理器都能直接查看、复制。Android 11+ 首次启动会提示授予「所有文件访问」权限，不授权也自动回落应用私有目录兜底。②新增运行日志 lk_run.log：启动、开始连接、认证、配对、掉线、手动断开等关键事件按时间顺序记录，连不上时看它就能定位卡在哪一步（原 lk_disconnect.log 断线分析保留）。③手机端功能面板新增「日志」按钮，可查看当前日志目录与已有日志文件。④保留 v1.36 断线分析日志、v1.35 鼠标方向摇杆与 v1.34 全部修复。",
+  "phone_apk": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-Phone-v1.37.apk",
+  "phone_apk_size": 5257017,
+  "phone_apk_sha256": "88381857c2524860253ceeea56e36f65404b1ff25bb4647fc3adffe40a0b686a"
 }
