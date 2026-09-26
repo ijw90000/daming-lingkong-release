@@ -1,13 +1,13 @@
 {
   "app": "大明灵控",
-  "version": "1.38.3",
-  "url": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-PC-v1.38.3.exe",
-  "size": 12755798,
-  "sha256": "18887441d9168688456003c8d2d265277b3207478a1e046c2598ddce5953f525",
+  "version": "1.38.4",
+  "url": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-PC-v1.38.4.exe",
+  "size": 12868955,
+  "sha256": "7c02ec0c9d59790c0fd481fb1c9bdd437a54d0698357bc47c1641ce089f339bf",
   "updated": "2026-09-26",
-  "notes": "v1.38.3（半开死链自愈）：根治「连上却控制不了 / 手机未配对」的半开僵尸——中转清理房间后电脑端 WebSocket 仍存活却脱离路由；现电脑端应用层自己感知并自愈（对端断开秒级重连 + 空闲孤儿主动重连），不再依赖外部看门狗兜底。控制端（电脑控电脑）同步修复。其余同 v1.38.2（自动更新自愈修复）/ v1.38.1（手机端死链快发现）/ v1.38（触控板 + 24帧 + 灵敏度 + 双击）。",
-  "phone_apk": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-Phone-v1.38.3.apk",
-  "phone_apk_size": 5258965,
-  "phone_apk_sha256": "0c09808ad4d78c034afa51571e20945523d9c68b06ada88453d78db71dba74ee",
-  "phone_note": "v1.38.3 同步：半开死链自愈已下沉到电脑端应用层，手机端无需改动即受益；版本号统一至 1.38.3。"
+  "notes": "v1.38.4（两端图标统一）：电脑端 EXE 内嵌图标此前只有 16×16 单帧，桌面/任务栏/资源管理器中严重发糊，与手机端观感不一致；现以高清 logo 重制为 16/24/32/48/64/128/256 多尺寸图标，两端完全一致，任意分辨率下清晰。功能无变化。此前 v1.38.3（半开死链自愈）/ v1.38.2（自动更新自愈）/ v1.38.1（手机端死链快发现）/ v1.38（触控板 + 24帧 + 灵敏度 + 双击）。",
+  "phone_apk": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-Phone-v1.38.4.apk",
+  "phone_apk_size": 5258969,
+  "phone_apk_sha256": "099124d4fc138d72e3d36589c705b973d245228640baccdfb4dcbd22ea448610",
+  "phone_note": "v1.38.4 同步：手机端图标本就高清，与电脑端新图标完全一致；版本号统一至 1.38.4。"
 }
