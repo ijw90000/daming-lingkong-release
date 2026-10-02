@@ -1,13 +1,13 @@
 {
   "app": "大明灵控",
-  "version": "1.38.4",
-  "url": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-PC-v1.38.4.exe",
-  "size": 12868955,
-  "sha256": "7c02ec0c9d59790c0fd481fb1c9bdd437a54d0698357bc47c1641ce089f339bf",
-  "updated": "2026-09-26",
-  "notes": "v1.38.4（两端图标统一）：电脑端 EXE 内嵌图标此前只有 16×16 单帧，桌面/任务栏/资源管理器中严重发糊，与手机端观感不一致；现以高清 logo 重制为 16/24/32/48/64/128/256 多尺寸图标，两端完全一致，任意分辨率下清晰。功能无变化。此前 v1.38.3（半开死链自愈）/ v1.38.2（自动更新自愈）/ v1.38.1（手机端死链快发现）/ v1.38（触控板 + 24帧 + 灵敏度 + 双击）。",
-  "phone_apk": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-Phone-v1.38.4.apk",
-  "phone_apk_size": 5258969,
-  "phone_apk_sha256": "099124d4fc138d72e3d36589c705b973d245228640baccdfb4dcbd22ea448610",
-  "phone_note": "v1.38.4 同步：手机端图标本就高清，与电脑端新图标完全一致；版本号统一至 1.38.4。"
+  "version": "1.38.5",
+  "url": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-PC-v1.38.5.exe",
+  "size": 12878672,
+  "sha256": "267409bcb8ac37cd2dede6843abaa656125f5a7d24438e2f2ca7b727995285c3",
+  "updated": "2026-10-02",
+  "notes": "v1.38.5：所有客户端底部新增大明产品导航超链接（dh.vi.gs）与微信 nftscj（点击复制），PC 控制端按钮栏、安卓底部面板、发布页页脚三处同步；含此前 v1.38.4（两端图标统一）/ v1.38.3（半开死链自愈）/ v1.38.2（自动更新自愈）/ v1.38.1（手机端死链快发现）/ v1.38（触控板 + 24帧 + 灵敏度 + 双击）。",
+  "phone_apk": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-Phone-v1.38.5.apk",
+  "phone_apk_size": 5259997,
+  "phone_apk_sha256": "cccf89f8a82fa4c3944aa1605cbf089af7942ca4b1b7e50255014faaac39f0ed",
+  "phone_note": "v1.38.5 同步：底部面板新增「大明产品导航」（打开 dh.vi.gs）与「微信 nftscj」（点击复制微信号）；版本号统一至 1.38.5。"
 }
