@@ -1,13 +1,13 @@
 {
   "app": "大明灵控",
-  "version": "1.38.5",
-  "url": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-PC-v1.38.5.exe",
-  "size": 12878672,
-  "sha256": "267409bcb8ac37cd2dede6843abaa656125f5a7d24438e2f2ca7b727995285c3",
-  "updated": "2026-10-02",
-  "notes": "v1.38.5：所有客户端底部新增大明产品导航超链接（dh.vi.gs）与微信 nftscj（点击复制），PC 控制端按钮栏、安卓底部面板、发布页页脚三处同步；含此前 v1.38.4（两端图标统一）/ v1.38.3（半开死链自愈）/ v1.38.2（自动更新自愈）/ v1.38.1（手机端死链快发现）/ v1.38（触控板 + 24帧 + 灵敏度 + 双击）。",
-  "phone_apk": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-Phone-v1.38.5.apk",
-  "phone_apk_size": 5259997,
-  "phone_apk_sha256": "cccf89f8a82fa4c3944aa1605cbf089af7942ca4b1b7e50255014faaac39f0ed",
-  "phone_note": "v1.38.5 同步：底部面板新增「大明产品导航」（打开 dh.vi.gs）与「微信 nftscj」（点击复制微信号）；版本号统一至 1.38.5。"
+  "version": "1.38.7",
+  "url": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-PC-v1.38.7.exe",
+  "size": 12878644,
+  "sha256": "fd28b45b1b918026f2fa6d03e1eddb9c80feec25d2a87a1b58ade81b4c1a4025",
+  "updated": "2026-10-08",
+  "notes": "v1.38.7：全端内置自建中继 relay.vi.gs。此前中继走境外平台链路，跨境抖动易掉线；现改为自有服务器自建中继 + Cloudflare 命名隧道固定域名 relay.vi.gs（TLS 由边缘终止）。电脑被控端、电脑控制端、手机端三处默认地址全部预填 wss://relay.vi.gs/ws，升级后无需手动改地址，域名永久不变、重启换IP都不受影响；并把 relay.vi.gs 加入受信域名白名单走系统信任链校验证书。房间 daming888、密码不变。含此前 v1.38.5（底部产品导航与微信）/ v1.38.4（两端图标统一）/ v1.38.3（半开死链自愈）/ v1.38.2（自动更新自愈）/ v1.38.1（手机端死链快发现）。",
+  "phone_apk": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-Phone-v1.38.7.apk",
+  "phone_apk_size": 5259981,
+  "phone_apk_sha256": "5652d9d1767e57ce0ce3f34d12aaa1b509ac8a7242f0183df3e04deffb24ce04",
+  "phone_note": "v1.38.7 同步：手机端内置默认服务器已改为自建中继 wss://relay.vi.gs/ws，装机即连、无需手填服务器；域名永久不变。房间 daming888、密码不变，底部面板保留「大明产品导航」与「微信 nftscj」入口。"
 }
