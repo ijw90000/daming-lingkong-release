@@ -1,13 +1,13 @@
 {
   "app": "大明灵控",
-  "version": "1.38.7",
-  "url": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-PC-v1.38.7.exe",
-  "size": 12878644,
-  "sha256": "fd28b45b1b918026f2fa6d03e1eddb9c80feec25d2a87a1b58ade81b4c1a4025",
-  "updated": "2026-10-08",
-  "notes": "v1.38.7：全端内置自建中继 relay.vi.gs。此前中继走境外平台链路，跨境抖动易掉线；现改为自有服务器自建中继 + Cloudflare 命名隧道固定域名 relay.vi.gs（TLS 由边缘终止）。电脑被控端、电脑控制端、手机端三处默认地址全部预填 wss://relay.vi.gs/ws，升级后无需手动改地址，域名永久不变、重启换IP都不受影响；并把 relay.vi.gs 加入受信域名白名单走系统信任链校验证书。房间 daming888、密码不变。含此前 v1.38.5（底部产品导航与微信）/ v1.38.4（两端图标统一）/ v1.38.3（半开死链自愈）/ v1.38.2（自动更新自愈）/ v1.38.1（手机端死链快发现）。",
-  "phone_apk": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-Phone-v1.38.7.apk",
-  "phone_apk_size": 5259981,
-  "phone_apk_sha256": "5652d9d1767e57ce0ce3f34d12aaa1b509ac8a7242f0183df3e04deffb24ce04",
-  "phone_note": "v1.38.7 同步：手机端内置默认服务器已改为自建中继 wss://relay.vi.gs/ws，装机即连、无需手填服务器；域名永久不变。房间 daming888、密码不变，底部面板保留「大明产品导航」与「微信 nftscj」入口。"
+  "version": "1.38.8",
+  "url": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-PC-v1.38.8.exe",
+  "size": 12878650,
+  "sha256": "684f1b350e39f6be7394129678b45082a08022d0afea0b44b93921e8a3e00b3d",
+  "updated": "2026-10-09",
+  "notes": "v1.38.8：手机端掉线后持续自动恢复。此前被动掉线只自动重连 8 次（约 32 秒），隧道/中转停摆超过半分钟就得手动重进；现改为退避递增（4→8→16→30 秒）封顶 30 秒、持续重试，只要没点「断开」就一直等、链路恢复即自动接回。服务端同步加固：修复中转同角色重连误发断开通知导致刚连上又被踢下线；Cloudflare 隧道改为 Windows 服务常驻，避免隧道进程被回收后手机连不上（530 / DNS 解析失败）。含此前 v1.38.7（自建中继 relay.vi.gs）/ v1.38.5 / v1.38.4 / v1.38.3 / v1.38.2 / v1.38.1。",
+  "phone_apk": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-Phone-v1.38.8.apk",
+  "phone_apk_size": 5259713,
+  "phone_apk_sha256": "3204df8840734444f1e090ab4938cd1e500ef46204e0b1533baf6d6df9d615cb",
+  "phone_note": "v1.38.8 同步：手机端被动掉线改为持续自动重连（退避 4→8→16→30 秒、封顶 30 秒），网络/隧道恢复后自动接回，不用手动退出重进；手动点「断开」仍彻底停手。服务器地址仍为自建中继 wss://relay.vi.gs/ws，房间 daming888、密码不变。"
 }
