@@ -1,13 +1,13 @@
 {
   "app": "大明灵控",
-  "version": "1.38.8",
-  "url": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-PC-v1.38.8.exe",
-  "size": 12878650,
-  "sha256": "684f1b350e39f6be7394129678b45082a08022d0afea0b44b93921e8a3e00b3d",
-  "updated": "2026-10-09",
-  "notes": "v1.38.8：手机端掉线后持续自动恢复。此前被动掉线只自动重连 8 次（约 32 秒），隧道/中转停摆超过半分钟就得手动重进；现改为退避递增（4→8→16→30 秒）封顶 30 秒、持续重试，只要没点「断开」就一直等、链路恢复即自动接回。服务端同步加固：修复中转同角色重连误发断开通知导致刚连上又被踢下线；Cloudflare 隧道改为 Windows 服务常驻，避免隧道进程被回收后手机连不上（530 / DNS 解析失败）。含此前 v1.38.7（自建中继 relay.vi.gs）/ v1.38.5 / v1.38.4 / v1.38.3 / v1.38.2 / v1.38.1。",
-  "phone_apk": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-Phone-v1.38.8.apk",
-  "phone_apk_size": 5259713,
-  "phone_apk_sha256": "3204df8840734444f1e090ab4938cd1e500ef46204e0b1533baf6d6df9d615cb",
-  "phone_note": "v1.38.8 同步：手机端被动掉线改为持续自动重连（退避 4→8→16→30 秒、封顶 30 秒），网络/隧道恢复后自动接回，不用手动退出重进；手动点「断开」仍彻底停手。服务器地址仍为自建中继 wss://relay.vi.gs/ws，房间 daming888、密码不变。"
+  "version": "1.38.9",
+  "url": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-PC-v1.38.9.exe",
+  "size": 12878653,
+  "sha256": "e2843829e570b52df27fd21b075703353f832149a88a0cb82b1dd6b959f8213e",
+  "updated": "2026-10-16",
+  "notes": "v1.38.9：手机端连接页「服务器 / 房间 / 密码」三个输入框改为深色底 + 白字 + 描边，修复此前在部分系统主题下文字与输入框整体不可见的问题。含 v1.38.8（手机端掉线后持续自动恢复、中转同角色重连误踢修复、Cloudflare 隧道改 Windows 服务常驻）/ v1.38.7（自建中继 relay.vi.gs）/ v1.38.5 / v1.38.4 / v1.38.3 / v1.38.2 / v1.38.1。",
+  "phone_apk": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-Phone-v1.38.9.apk",
+  "phone_apk_size": 5260361,
+  "phone_apk_sha256": "56b807bc9f501a1f4e721da4feb20f9daf58a29bcc253c344b398656fee47fb",
+  "phone_note": "v1.38.9 同步：连接页三个输入框统一深色底+白字，任何系统主题下清晰可见。服务器地址仍为自建中继 wss://relay.vi.gs/ws，房间 daming888、密码不变。"
 }
