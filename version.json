@@ -1,13 +1,13 @@
 {
   "app": "大明灵控",
-  "version": "1.38.9",
-  "url": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-PC-v1.38.9.exe",
-  "size": 12878653,
-  "sha256": "e2843829e570b52df27fd21b075703353f832149a88a0cb82b1dd6b959f8213e",
-  "updated": "2026-10-16",
-  "notes": "v1.38.9：手机端连接页「服务器 / 房间 / 密码」三个输入框改为深色底 + 白字 + 描边，修复此前在部分系统主题下文字与输入框整体不可见的问题。含 v1.38.8（手机端掉线后持续自动恢复、中转同角色重连误踢修复、Cloudflare 隧道改 Windows 服务常驻）/ v1.38.7（自建中继 relay.vi.gs）/ v1.38.5 / v1.38.4 / v1.38.3 / v1.38.2 / v1.38.1。",
-  "phone_apk": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-Phone-v1.38.9.apk",
-  "phone_apk_size": 5260361,
-  "phone_apk_sha256": "56b807bc9f501a1f4e721da4feb20f9daf58a29bcc253c344b398656fee47fb",
-  "phone_note": "v1.38.9 同步：连接页三个输入框统一深色底+白字，任何系统主题下清晰可见。服务器地址仍为自建中继 wss://relay.vi.gs/ws，房间 daming888、密码不变。"
+  "version": "1.39",
+  "url": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-PC-v1.39.exe",
+  "size": 12879976,
+  "sha256": "0f931e797a273e865360c21af23ba3d58d04643f097e0c81e58f2815b0fb97aa",
+  "updated": "2026-10-18",
+  "notes": "v1.39：连接凭据安全加固——房间号与配对密码不再内置固定值，改为电脑端首次启动随机生成并显示在状态窗；检测到旧版公开泄露的默认对（daming888 / DmLk@2026）自动轮换。旧版固定凭据已随客户端扩散等同于公开密码，任何拿到客户端的人都能通过中继直接配对控制电脑。手机端/控制端同步移除内置默认密码，连接时按电脑端状态窗显示填写。含 v1.38.9（连接页输入框深色底白字）/ v1.38.8（手机端掉线持续自动恢复、中转同角色重连误踢修复、Cloudflare 隧道改 Windows 服务常驻）/ v1.38.7（自建中继 relay.vi.gs）/ v1.38.5 / v1.38.4 / v1.38.3 / v1.38.2 / v1.38.1。",
+  "phone_apk": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-Phone-v1.39.apk",
+  "phone_apk_size": 5260177,
+  "phone_apk_sha256": "383aa39ba8ec117320c850277904091fc06656f2900e2942531ea68bd5f8edc3",
+  "phone_note": "v1.39 同步：房间号与配对密码不再内置固定值——电脑端首次启动会自动生成随机房间号（DM 开头 8 位）和 12 位配对密码，直接显示在电脑端状态窗口，手机端连接时按窗口显示填写即可（App 会记住，之后不用再输）。若电脑端是旧版升级上来的，第一次启动会自动把旧的公开房间/密码换成新的随机值，同样显示在状态窗，手机端照新值填一次即可。服务器地址仍为自建中继 wss://relay.vi.gs/ws，永久不变。"
 }
