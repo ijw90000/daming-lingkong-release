@@ -1,13 +1,13 @@
 {
   "app": "大明灵控",
-  "version": "1.40",
-  "url": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-PC-v1.40.exe",
-  "size": 12879970,
-  "sha256": "7fde23321a7e2cef3571dbbd924d111c4182ca0b228e93a21a0735b1be5272b8",
+  "version": "1.41",
+  "url": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-PC-v1.41.exe",
+  "size": 12879589,
+  "sha256": "66aeef0cb96ac52983fd5511b18fc1cad277058f09c51062f5d85721741586aa",
   "updated": "2026-10-19",
-  "notes": "v1.40：安全加固补强——① 中继层封禁已公开泄露的默认房间：旧版客户端内置固定的房间号与配对密码并自动重连，而中继此前来者不拒，攻击者可预先用泄露对占住该房间即可完全控制仍跑旧版的机器（v1.39 的客户端轮换只保护已升级端）。现在中继直接拒绝该房间的一切连接（服务端已生效）：仍在跑旧版的机器会连不上并提示升级，不会再被预占控制；v1.39+ 的随机房间永不冲突。② 电脑控制端配置兼容 BOM：记事本等编辑器保存的 controller.json 不再静默丢失配置。③ 清理二进制内残留的泄露对明文字符串（docstring 级）。含 v1.39（连接凭据安全加固——房间号与配对密码改为电脑端随机生成并显示在状态窗，旧版公开默认对自动轮换）/ v1.38.9（连接页输入框深色底白字）/ v1.38.8（手机端掉线持续自动恢复、中转同角色重连误踢修复、Cloudflare 隧道改 Windows 服务常驻）/ v1.38.7（自建中继 relay.vi.gs）/ v1.38.5 / v1.38.4 / v1.38.3 / v1.38.2 / v1.38.1。",
-  "phone_apk": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-Phone-v1.40.apk",
+  "notes": "v1.41：按机主要求，移除「检测到旧房间/密码即自动轮换」与「中继封禁默认房间」两处擅自更改配对信息的逻辑——config.json 里已配置的房间号与密码一律保持原样，未经机主同意不再改动；仅从未配置时首启随机生成。本机已恢复为 daming888 / 原配对密码（机主指定），手机端按电脑端状态窗显示填写即可。含 v1.40（中继封禁已泄露默认房间 · 控制端 BOM 兼容）/ v1.39（连接凭据安全加固：首启随机生成）/ v1.38.9（手机端输入框可见性修复）/ v1.38.8（断线自恢复）/ v1.38.7（自建中继 relay.vi.gs）。",
+  "phone_apk": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-Phone-v1.41.apk",
   "phone_apk_size": 5260177,
-  "phone_apk_sha256": "f8f5d42d4bb5840061bf934182504240faf1df32e0b9d7654141efb52afcb34d",
-  "phone_note": "v1.40 同步：中继已封禁旧版公开默认房间——若连接时提示「该房间号已因安全升级停用」，说明电脑端还是旧版（v1.39 及更早），请把电脑端升级到 v1.40：升级后第一次启动会自动生成新的随机房间号与配对密码，照状态窗显示在手机端填一次即可（App 会记住）。若电脑端已是 v1.39+（随机房间），本版无感、无需任何操作。服务器地址仍为自建中继 wss://relay.vi.gs/ws，永久不变。"
+  "phone_apk_sha256": "edebeb470f016cd32bd723a25a1b546b9abe56822bc2e5a1d77a50d0a6b4d557",
+  "phone_note": "v1.41 同步：手机端不再内置默认房间/密码，连接时按电脑端状态窗显示的填写（服务器仍为 wss://relay.vi.gs/ws）。输入框为深色底+白字，任何系统主题下清晰可见。"
 }
