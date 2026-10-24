@@ -1,13 +1,14 @@
 {
   "app": "大明灵控",
-  "version": "1.41",
-  "url": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-PC-v1.41.exe",
-  "size": 12879589,
-  "sha256": "66aeef0cb96ac52983fd5511b18fc1cad277058f09c51062f5d85721741586aa",
-  "updated": "2026-10-19",
-  "notes": "v1.41：按机主要求，移除「检测到旧房间/密码即自动轮换」与「中继封禁默认房间」两处擅自更改配对信息的逻辑——config.json 里已配置的房间号与密码一律保持原样，未经机主同意不再改动；仅从未配置时首启随机生成。本机已恢复为 daming888 / 原配对密码（机主指定），手机端按电脑端状态窗显示填写即可。含 v1.40（中继封禁已泄露默认房间 · 控制端 BOM 兼容）/ v1.39（连接凭据安全加固：首启随机生成）/ v1.38.9（手机端输入框可见性修复）/ v1.38.8（断线自恢复）/ v1.38.7（自建中继 relay.vi.gs）。",
-  "phone_apk": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-Phone-v1.41.apk",
+  "notes": "v1.43 安全修复：①自动更新链路补强——version.json 缺少 SHA-256 校验值时拒绝更新，不再静默安装未校验的更新包（v1.42 及以前缺字段即跳过校验）；②自建中转场景加固——随包固定证书缺失时 TLS 握手失败而非放行任意证书，电脑端被控端与控制端同步修复；③中继健壮性——收到非常规格式消息（JSON 数组/标量/字符串/null）不再掉线，两端连接保持；④电脑端消息处理增加兜底，任何未预期的处理器异常不再打掉连接；⑤画质/帧率等设置项改为「全部解析成功才统一生效」，中途失败不再出现两端状态不一致；⑥日志中的配对密码打码（房间号照常显示，完整密码仅在同目录 config.json 与状态窗）。含 v1.42（异常格式消息不崩不断线 / config.json 损坏先自动备份再重建 / 公网更新通道启用证书主机名校验）。",
+  "phone_apk": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-Phone-v1.43.apk",
+  "phone_apk_sha256": "7cf85aacc205152c7d91d52b748bda83ef0dbdd5a907abb4e1d69e667bad0d41",
   "phone_apk_size": 5260177,
-  "phone_apk_sha256": "edebeb470f016cd32bd723a25a1b546b9abe56822bc2e5a1d77a50d0a6b4d557",
-  "phone_note": "v1.41 同步：手机端不再内置默认房间/密码，连接时按电脑端状态窗显示的填写（服务器仍为 wss://relay.vi.gs/ws）。输入框为深色底+白字，任何系统主题下清晰可见。"
+  "phone_note": "v1.43 同步（versionCode 26）：本次为电脑端与中继的安全修复，手机端无代码变更（消息解析早已具备异常保护，dex 与近几版一致）；版本号同步升级，连接方式不变——仍按电脑端状态窗显示的房间号/密码填写，服务器 wss://relay.vi.gs/ws 永久不变。",
+  "phone_version_code": 26,
+  "sha256": "5f62cd0e56998d150104825df0aded399b4e4056e102639c1a526ecf56a7d0ee",
+  "size": 12881621,
+  "updated": "2026-10-24",
+  "url": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-PC-v1.43.exe",
+  "version": "1.43"
 }
