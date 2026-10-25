@@ -1,14 +1,14 @@
 {
   "app": "大明灵控",
-  "notes": "v1.43 安全修复：①自动更新链路补强——version.json 缺少 SHA-256 校验值时拒绝更新，不再静默安装未校验的更新包（v1.42 及以前缺字段即跳过校验）；②自建中转场景加固——随包固定证书缺失时 TLS 握手失败而非放行任意证书，电脑端被控端与控制端同步修复；③中继健壮性——收到非常规格式消息（JSON 数组/标量/字符串/null）不再掉线，两端连接保持；④电脑端消息处理增加兜底，任何未预期的处理器异常不再打掉连接；⑤画质/帧率等设置项改为「全部解析成功才统一生效」，中途失败不再出现两端状态不一致；⑥日志中的配对密码打码（房间号照常显示，完整密码仅在同目录 config.json 与状态窗）。含 v1.42（异常格式消息不崩不断线 / config.json 损坏先自动备份再重建 / 公网更新通道启用证书主机名校验）。",
-  "phone_apk": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-Phone-v1.43.apk",
-  "phone_apk_sha256": "7cf85aacc205152c7d91d52b748bda83ef0dbdd5a907abb4e1d69e667bad0d41",
+  "notes": "v1.44 安全修复：①中继认证链路加固——首条消息与 auth 字段（房间/角色/密码）增加类型与长度校验，且在任何状态变更之前完成，畸形认证（JSON 数组/非字符串密码等）不再触发服务端未处理异常；②房间清理保证——密码校验、配对与主消息循环整体纳入 try/finally，任何未预期异常都保证回收房间，不再残留「幽灵对端」；③房间/密码长度上限（64/128 字符），杜绝超长键值撑内存（中继为全网唯一公共节点，rooms 可被远程打爆导致全员掉线，本版封堵）；④控制端消息兜底——非 dict 的合法 JSON 直接忽略，与电脑端/中继对齐。含 v1.43（自动更新缺 SHA-256 拒绝更新 / 自建中转证书缺失握手失败而非放行 / 中继非常规消息不掉线 / 电脑端消息兜底 / 设置项原子生效 / 日志密码打码）与 v1.42 全部稳定性修复。",
+  "phone_apk": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-Phone-v1.44.apk",
+  "phone_apk_sha256": "8b806150da89fa4ce5a80195fdf48f804dd31408922b289a39a54e9bf9e2f286",
   "phone_apk_size": 5260177,
-  "phone_note": "v1.43 同步（versionCode 26）：本次为电脑端与中继的安全修复，手机端无代码变更（消息解析早已具备异常保护，dex 与近几版一致）；版本号同步升级，连接方式不变——仍按电脑端状态窗显示的房间号/密码填写，服务器 wss://relay.vi.gs/ws 永久不变。",
-  "phone_version_code": 26,
-  "sha256": "5f62cd0e56998d150104825df0aded399b4e4056e102639c1a526ecf56a7d0ee",
-  "size": 12881621,
-  "updated": "2026-10-24",
-  "url": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-PC-v1.43.exe",
-  "version": "1.43"
+  "phone_note": "v1.44 同步（versionCode 27）：本次为电脑端与中继的安全修复，手机端无代码变更（dex 与近几版一致，仅版本号升级）；连接方式不变——仍按电脑端状态窗显示的房间号/密码填写，服务器 wss://relay.vi.gs/ws 永久不变。",
+  "phone_version_code": 27,
+  "sha256": "e80ddd9d770153c0de198a80da82f2c333e86f5c3fad5dc0641c65bfb66a30b8",
+  "size": 12881624,
+  "updated": "2026-10-25",
+  "url": "https://ijw90000.github.io/daming-lingkong-release/DamingLingkong-PC-v1.44.exe",
+  "version": "1.44"
 }
